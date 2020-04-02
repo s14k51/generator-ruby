@@ -1,0 +1,7 @@
+(C) Copyright 2020-present <%= entityName %> All rights reserved.
+
+The contents of this repository represent the trade secrets of
+<%= entityName %> and are confidential. 
+
+Use outside of <%= entityName %> is prohibited and in violation of the
+copyright law.

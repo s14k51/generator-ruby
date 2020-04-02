@@ -1,0 +1,29 @@
+{
+  "name": "<%= projectName %>",
+  "description": "<%= projectDescription %>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "rimraf coverage",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@types/jest": "^25.1.4",
+    "commitlint-config-ruby": "^1.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-ruby": "^1.4.2",
+    "husky": "^4.2.3",
+    "jest": "^25.2.4",
+    "jest-preset-ruby": "^1.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=6.17.1"
+  }
+}
