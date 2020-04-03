@@ -3,11 +3,22 @@
   "name": "<%= projectName %>",
   "description": "<%= projectDescription %>",
   "version": "1.0.0",
-  "license": "See license in LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "main": "src/index.js",
   "files": [
     "src"
   ],
+  "contributors": [
+    "<%= contributor1Name %><% if (contributor1Email) { %> <<%= contributor1Email %>><% } %>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "<%= gitRepoURL %>"
+  },
+  "homepage": "<%= projectHomePage %>",
+  "bugs": {
+    "url": "<%= issueTrackerURL %>"
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "rimraf coverage",

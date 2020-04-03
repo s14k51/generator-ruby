@@ -1,4 +1,6 @@
-(C) Copyright 2020-present <%= entityName %> All rights reserved.
+(C) Copyright 2020-present <%= entityName %>
+
+All rights reserved.
 
 The contents of this repository represent the trade secrets of
 <%= entityName %> and are confidential. 

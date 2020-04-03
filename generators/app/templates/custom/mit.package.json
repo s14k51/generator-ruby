@@ -7,6 +7,15 @@
   "files": [
     "src"
   ],
+  "author": "<%= gitUserName %><% if (gitEmail) { %> <<%= gitEmail %>><% } %>",
+  "repository": {
+    "type": "git",
+    "url": "<%= gitRepoURL %>"
+  },
+  "homepage": "<%= projectHomePage %>",
+  "bugs": {
+    "url": "<%= issueTrackerURL %>"
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "rimraf coverage",
