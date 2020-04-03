@@ -50,6 +50,14 @@ module.exports = class Ruby extends Generator {
       },
       {
         type: 'input',
+        name: 'gitEmail',
+        message: 'Enter the email address associated with your git user name',
+        when({ isPublic }) {
+          return isPublic;
+        },
+      },
+      {
+        type: 'input',
         name: 'entityName',
         message: 'What is the name of the owner/entity who owns this package?',
         when({ isPublic }) {
@@ -62,6 +70,44 @@ module.exports = class Ruby extends Generator {
 
           return true;
         },
+      },
+      {
+        type: 'input',
+        name: 'contributor1Name',
+        message: 'What is the first contributor name?',
+        when({ isPublic }) {
+          return !isPublic;
+        },
+        validate(contributor1Name) {
+          if (!contributor1Name) {
+            return 'Contributor name must be provided';
+          }
+
+          return true;
+        },
+      },
+      {
+        type: 'input',
+        name: 'contributor1Email',
+        message: 'Enter the email address of the first contributor',
+        when({ isPublic }) {
+          return !isPublic;
+        },
+      },
+      {
+        type: 'input',
+        name: 'gitRepoURL',
+        message: "Enter your project's git repository URL",
+      },
+      {
+        type: 'input',
+        name: 'projectHomePage',
+        message: "Enter your project's homepage URL",
+      },
+      {
+        type: 'input',
+        name: 'issueTrackerURL',
+        message: "Enter your project's issue tracker URL",
       },
       {
         type: 'list',
