@@ -1,7 +1,7 @@
 {
   "name": "generator-ruby",
   "description": "Opinionated Yeoman generator for Node projects",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "author": "s14k51 <s14k51@gmail.com>",
   "keywords": [
@@ -10,7 +10,11 @@
   "files": [
     "generators"
   ],
-  "homepage": "https://github.com/s14k51/generator-ruby",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s14k51/generator-ruby.git"
+  },
+  "homepage": "https://github.com/s14k51/generator-ruby#readme",
   "bugs": {
     "url": "https://github.com/s14k51/generator-ruby/issues"
   },
@@ -22,7 +26,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "commitlint-config-ruby": "^1.0.1",
+    "@commitlint/config-angular": "^8.3.4",
     "eslint": "^6.8.0",
     "eslint-config-ruby": "^1.4.2",
     "husky": "^4.2.3"
