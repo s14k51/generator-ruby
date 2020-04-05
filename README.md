@@ -1,3 +1,13 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/s14k51/generator-ruby/badge.svg?targetFile=package.json)](https://snyk.io/test/github/s14k51/generator-ruby?targetFile=package.json)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=alert_status)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=bugs)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=security_rating)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=sqale_index)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=code_smells)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
+
 # generator-ruby
 
 Opinionated Yeoman generator for Node projects.
