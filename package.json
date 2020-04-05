@@ -22,13 +22,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "yeoman-generator": "^4.7.2"
+    "yeoman-generator": "4.7.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-angular": "^8.3.4",
-    "eslint": "^6.8.0",
-    "eslint-config-ruby": "^1.4.2",
-    "husky": "^4.2.3"
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-angular": "8.3.4",
+    "eslint": "6.8.0",
+    "eslint-config-ruby": "1.4.2",
+    "husky": "4.2.3"
   }
 }
