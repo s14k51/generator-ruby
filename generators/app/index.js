@@ -127,7 +127,7 @@ module.exports = class Ruby extends Generator {
 
     this.destinationRoot(projectName);
 
-    const huskyCmd = pkgManager === 'npm'
+    const huskyPreCmd = pkgManager === 'npm'
       ? 'npm run lint && npm test'
       : 'yarn lint && yarn test';
 
@@ -136,7 +136,7 @@ module.exports = class Ruby extends Generator {
     this.fs.copyTpl(
       this.templatePath('main/**'),
       this.destinationRoot(),
-      { ...this.answers, huskyCmd },
+      { ...this.answers, huskyPreCmd },
       null,
       { globOptions: { dot: true } },
     );
