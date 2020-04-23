@@ -1,6 +1,7 @@
-[![npm version](https://badge.fury.io/js/generator-ruby.svg)](https://badge.fury.io/js/generator-ruby)
+[![npm package](https://img.shields.io/npm/v/generator-ruby?label=npm%20package)](https://www.npmjs.com/package/generator-ruby)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/s14k51/generator-ruby/badge.svg?targetFile=package.json)](https://snyk.io/test/github/s14k51/generator-ruby?targetFile=package.json)
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=alert_status)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=s14k51_generator-ruby&metric=bugs)](https://sonarcloud.io/dashboard?id=s14k51_generator-ruby)
