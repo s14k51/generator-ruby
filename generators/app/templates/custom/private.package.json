@@ -29,7 +29,7 @@
     "@types/jest": "^25.1.4",
     "commitlint-config-ruby": "^2.2.0",
     "eslint": "^6.8.0",
-    "eslint-config-ruby": "^1.6.0",
+    "eslint-config-ruby": "^1.7.2",
     "husky": "^4.2.3",
     "jest": "^25.2.4",
     "jest-preset-ruby": "^1.0.0",
