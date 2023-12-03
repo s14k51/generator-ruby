@@ -22,7 +22,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "yeoman-generator": "^4.7.2"
+    "yeoman-generator": "^6.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
