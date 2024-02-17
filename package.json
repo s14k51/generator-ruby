@@ -29,6 +29,6 @@
     "commitlint-config-ruby": "^2.2.0",
     "eslint": "^6.8.0",
     "eslint-config-ruby": "^1.7.2",
-    "husky": "^4.2.3"
+    "husky": "^9.0.0"
   }
 }
